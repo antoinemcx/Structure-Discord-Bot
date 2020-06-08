@@ -9,8 +9,8 @@ For better referencing, please add a star on the repository
 > module.exports = {  
 >ᅠᅠᅠtoken: 'BOT_TOKEN',  
 >ᅠᅠᅠowner:["YOUR_DISCORD_ID"]  
->ᅠᅠ};
-
+>ᅠᅠ};  
+ᅠᅠ
 
 # Launch
 
@@ -19,6 +19,7 @@ node index.js
 # Error
 
 For any errors found, please contact me here or do a pull request  
+ᅠᅠ
 
 
 # Table of contents
