@@ -15,8 +15,14 @@ module.exports = {
  ```
 ᅠᅠ
 
-# Launch
+# Commands
 
+Installation
+```
+npm install
+```
+
+Start the bot
 ```
 node index.js
 ```
@@ -30,5 +36,5 @@ For any errors found, please contact me here or do a pull request
 # Table of contents
 * [Introduction](#Structure-Discord-Bot)
   * [Configuration](#Configuration)
-  * [Launch](#Launch)
+  * [Commands](#Commands)
   * [Error](#Error)
