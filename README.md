@@ -17,12 +17,12 @@ module.exports = {
 
 # Commands
 
->- Installation
+- Installation
 ```
 npm install
 ```
 
->- Start the bot
+- Start the bot
 ```
 node index.js
 ```
