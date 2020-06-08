@@ -24,4 +24,4 @@ For any errors found, please contact me here or do a pull request
 
 # Table of contents
 * [Introduction](#Structure-Discord-Bot)
-* [Configuration](#Configuration)
+  * [Configuration](#Configuration)
