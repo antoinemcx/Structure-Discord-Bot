@@ -18,9 +18,7 @@ module.exports = {
 # Commands
 
 **Installation**
-```
-npm install
-```
+> `npm install`
 
 **Start the bot**  
 > `node index.js`
