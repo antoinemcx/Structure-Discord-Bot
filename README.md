@@ -27,7 +27,7 @@ npm install
 node index.js
 ```
 
-# Error
+# Errors
 
 For any errors found, please contact me here or do a pull request  
 ᅠᅠ
@@ -37,4 +37,4 @@ For any errors found, please contact me here or do a pull request
 * [Introduction](#Structure-Discord-Bot)
   * [Configuration](#Configuration)
   * [Commands](#Commands)
-  * [Error](#Error)
+  * [Errors](#Errors)
