@@ -29,7 +29,7 @@ node index.js
 
 # Errors
 
-For any errors found, please contact me here or do a pull request  
+For any errors found, please contact me [here](https://discord.gg/7MEGW6V) for exemple or do a pull request. 
 ᅠᅠ
 
 
