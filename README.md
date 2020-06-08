@@ -23,7 +23,7 @@ npm install
 ```
 
 **Start the bot**  
-    `node index.js`
+> `node index.js`
 
 # Errors
 
