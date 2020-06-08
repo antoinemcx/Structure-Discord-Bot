@@ -8,10 +8,10 @@
 
 # Configuration
 
-`module.exports = {
+module.exports = {
   token: 'BOT_TOKEN',
   owner:["YOUR_DISCORD_ID"]
-};`
+};
 
 
 # Launch
