@@ -11,6 +11,11 @@ The configuration file named **config.js** had to content the token of your disc
 >ᅠᅠᅠtoken: 'BOT_TOKEN',  
 >ᅠᅠᅠowner:["YOUR_DISCORD_ID"]  
 >ᅠᅠ};  
+```js
+module.exports = {  
+    token: 'BOT_TOKEN',  
+    owner:["YOUR_DISCORD_ID"]  
+ };```
 ᅠᅠ
 
 # Launch
