@@ -6,16 +6,13 @@ For better referencing, please add a star on the repository
 
 # Configuration
 
-The configuration file named **config.js** had to content the token of your discord bot, and your id or the ids of all other owners.
-> module.exports = {  
->ᅠᅠᅠtoken: 'BOT_TOKEN',  
->ᅠᅠᅠowner:["YOUR_DISCORD_ID"]  
->ᅠᅠ};  
+The configuration file named **config.js** had to content the token of your discord bot, and your id or the ids of all other owners. 
 ```js
 module.exports = {  
     token: 'BOT_TOKEN',  
     owner:["YOUR_DISCORD_ID"]  
- };```
+ };
+ ```
 ᅠᅠ
 
 # Launch
