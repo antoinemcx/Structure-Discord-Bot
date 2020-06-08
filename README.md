@@ -17,7 +17,9 @@ module.exports = {
 
 # Launch
 
+```
 node index.js
+```
 
 # Error
 
