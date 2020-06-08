@@ -4,6 +4,7 @@
 [![Watchers](https://img.shields.io/github/watchers/meliooff/Structure-Discord-Bot)](https://github.com/meliooff/Structure-Discord-Bot)
 
 Command &amp; event handler - Bot Discord (v11 stable)
+For better referencing, please add a star on the repository
 
 
 # Configuration
@@ -17,3 +18,7 @@ Command &amp; event handler - Bot Discord (v11 stable)
 # Launch
 
 node index.js
+
+# Error
+
+For any errors found, please contact me here or do a pull request
