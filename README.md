@@ -9,9 +9,9 @@ Command &amp; event handler - Bot Discord (v11 stable)
 # Configuration
 
 > module.exports = {  
->   token: 'BOT_TOKEN',  
->   owner:["YOUR_DISCORD_ID"]  
->  };
+>ᅠᅠᅠtoken: 'BOT_TOKEN',  
+>ᅠᅠᅠowner:["YOUR_DISCORD_ID"]  
+>ᅠᅠ};
 
 
 # Launch
