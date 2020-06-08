@@ -22,7 +22,7 @@ module.exports = {
 npm install
 ```
 
-**Start the bot**
+**Start the bot**  
 `node index.js`
 
 # Errors
