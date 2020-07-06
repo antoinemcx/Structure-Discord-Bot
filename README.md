@@ -10,6 +10,8 @@ The configuration file named **config.js** had to content the token of your disc
 ```js
 module.exports = {  
     token: 'BOT_TOKEN',  
+    prefix: 'BOT_PREFIX',  
+    log_channel: "LOG_CHANNEL'S_ID",  
     owner:["YOUR_DISCORD_ID"]  
  };
  ```

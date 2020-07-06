@@ -24,16 +24,16 @@ fs.readdir("./command/", (err, files) => {
     files.forEach(dir => {
       fs.readdir('./command/'+ dir +'/', (err, file) => {
         if (err) bot.logger.error(err);
-        bot.logger.loader(`${bot.color.chalkcolor.magenta('[CATEGORY] ')} ${bot.color.chalkcolor.blue(`${dir}`)} chargement...`);
+        bot.logger.loader(`${bot.color.chalkcolor.magenta('[CATEGORY] ')} ${bot.color.chalkcolor.blue(`${dir}`)} loading...`);
         file.forEach(f => {
           const props = require(`./command/${dir}/${f}`);
-          bot.logger.loader(`[COMMANDE] ${bot.color.chalkcolor.cyanBright(`${f}`)} est chargé`);
+          bot.logger.loader(`[COMMANDE] ${bot.color.chalkcolor.cyanBright(`${f}`)} is load`);
           bot.commandes.set(props.conf.name, props);
           props.conf.aliases.forEach(alias => {
             bot.aliases.set(alias, props.conf.name);
           });
         });
-        bot.logger.loader(`${bot.color.chalkcolor.magenta('[CATEGORY]')} ${bot.color.chalkcolor.red('[FINISH]')} ${bot.color.chalkcolor.blue(`${dir}`)} est chargé`)
+        bot.logger.loader(`${bot.color.chalkcolor.magenta('[CATEGORY]')} ${bot.color.chalkcolor.red('[FINISH]')} ${bot.color.chalkcolor.blue(`${dir}`)} is load`)
       })
     });
   });
@@ -44,20 +44,20 @@ fs.readdir("./command/", (err, files) => {
     files.forEach(file => {
       const event = require(`./event/${file}`);
       let eventName = file.split(".")[0];
-      bot.logger.loader(`[EVENT] ${bot.color.chalkcolor.green(`${eventName}.js`)} est chargé`);
+      bot.logger.loader(`[EVENT] ${bot.color.chalkcolor.green(`${eventName}.js`)} is load`);
       bot.on(eventName, event.bind(null, bot));
     });
-    bot.logger.loader(`[EVENT] ${bot.color.chalkcolor.red('[FINISH]')} ${files.length} events chargés`)
+    bot.logger.loader(`[EVENT] ${bot.color.chalkcolor.red('[FINISH]')} ${files.length} events loaded`)
   });
  
  //LOADER ALL UTILS FILES
   fs.readdir('./utils/', (err, files) => {
     if (err) bot.logger.error(err);
     files.forEach((f) => {
-        bot.logger.loader(`[UTILS] ${bot.color.chalkcolor.green(f)} est chargé`);
+        bot.logger.loader(`[UTILS] ${bot.color.chalkcolor.green(f)} is load`);
         bot[f.split('.')[0]] = require(`./utils/${f}`);
     });
-    bot.logger.loader(`[UTILS] ${bot.color.chalkcolor.red('[FINISH]')} ${files.length} utilitaires chargés`);
+    bot.logger.loader(`[UTILS] ${bot.color.chalkcolor.red('[FINISH]')} ${files.length} utilitaires loaded`);
   });
 
 bot.login(bot.config.token); 
