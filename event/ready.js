@@ -1,13 +1,13 @@
+const config = require("../config");
+
 module.exports = async (bot) => {
   
-    bot.logger.info('[!] Connexion effectuée !')
-    bot.logger.info(`[!] Utilisateurs : ${bot.users.size}`)
+    bot.logger.info(`[!] ${bot.user.username} is started...`)
 
     bot.user.setPresence({
           game: {
-              name: "BETA BOT",
-              type: "STREAMING",
-              url: "https://www.twitch.tv/meliooff"
+              name: `${config.prefix}help`,
+              type: "PLAYING",
           }
       });
 };
