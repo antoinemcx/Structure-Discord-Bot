@@ -30,7 +30,7 @@ module.exports = {
 For any errors found, please contact me [here](https://discord.gg/7MEGW6V) for exemple or do a pull request. 
 
 # License
-This repository is licensed under the MIT License. See the `LICENSE` file for more information.  
+This repository is licensed under the MIT License. See the `LICENSE` file ([here](https://github.com/meliooff/Structure-Discord-Bot/blob/master/LICENSE)) for more information.  
 ᅠᅠ
 
 
