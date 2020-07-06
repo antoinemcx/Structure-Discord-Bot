@@ -6,7 +6,7 @@ For better referencing, please add a star on the repository
 
 # Configuration
 
-The configuration file named **config.js** had to content the token of your discord bot, and your id or the ids of all other owners. 
+The configuration file named **config.js** have to content the token of your discord bot, the prefix of your bot, the id of the channel wich will receive the commands logs, and your id or the ids of all other owners. 
 ```js
 module.exports = {  
     token: 'BOT_TOKEN',  
