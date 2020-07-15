@@ -1,4 +1,4 @@
-# Structure-Discord-Bot [![Stars](https://img.shields.io/github/stars/meliooff/Structure-Discord-Bot)](https://github.com/meliooff/Structure-Discord-Bot) [![Watchers](https://img.shields.io/github/watchers/meliooff/Structure-Discord-Bot)](https://github.com/meliooff/Structure-Discord-Bot)
+# Structure-Discord-Bot [![Stars](https://img.shields.io/github/stars/meliooff/Structure-Discord-Bot)](https://github.com/meliooff/Structure-Discord-Bot) [![Codefactor](https://www.codefactor.io/Content/badges/APlus.svg)](https://www.codefactor.io/repository/github/meliooff/structure-discord-bot)
 
 Command &amp; event handler by [MélioOff](https://github.com/meliooff) - Bot Discord (v11 stable)  
 For better referencing, please add a star on the repository  
