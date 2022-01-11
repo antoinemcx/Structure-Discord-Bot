@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
     "chalk": "^4.0.0",
-    "discord.js": "^11.4.2",
+    "discord.js": "^13.5.1",
     "fs": "0.0.1-security",
     "moment": "^2.24.0",
     "quick.db": "^7.1.1"
