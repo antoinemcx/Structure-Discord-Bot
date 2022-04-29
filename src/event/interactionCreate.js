@@ -31,7 +31,7 @@ module.exports = async (client, interaction) => {
 
 		} catch (e) {
 			console.log(e);
-			await interaction.reply({ content: client.language.ERROR, ephemeral: true });
+			await interaction.reply({ content: 'An error has occured', ephemeral: true });
 		}
 	}
 };
