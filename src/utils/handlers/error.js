@@ -1,15 +1,17 @@
 module.exports = async (client) => {
 
     process.on('unhandledRejection', err => {
-        if(err) {
+        if(!err) return
+            
+        if(err instanceof Error) {
             if (err.stack.includes('An invalid token was provided.')) {
                 return client.logger.error('Bad token see config.js for set the token')
-            } else if (err.stack.includes('Missing Permissions')) {
-                return client.logger.error('Permission Error')
             } else {
                 return client.logger.error(err.stack)
             }
         }
+    
+        client.logger.error(err)
     });
    
     process.on('uncaughtException', err =>{
