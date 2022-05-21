@@ -41,9 +41,5 @@ module.exports = async (client, message) => {
     }
 
     //LOADING COMMANDS
-    try {
-        cmd.run(client, message, args);
-    } catch (e) {
-        client.emit("error", e, message);
-    }
+    cmd.run(client, message, args).catch(err => client.emit("error", err, message))
 };
