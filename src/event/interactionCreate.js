@@ -11,7 +11,7 @@ module.exports = async (client, interaction) => {
             
             const now = Date.now();
             const timestamps = cooldowns.get(command.name);
-            const cooldownAmount = command.cooldown || (2 * 1000);
+            const cooldownAmount = (command.cooldown || 2) * 1000;
             
             if (timestamps.has(interaction.user.id)) {
                     const expirationTime = timestamps.get(interaction.user.id) + cooldownAmount;
