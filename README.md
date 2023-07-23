@@ -1,12 +1,39 @@
-# Structure-Discord-Bot [![Stars](https://img.shields.io/github/stars/antoinemcx/Structure-Discord-Bot)](https://github.com/antoinemcx/Structure-Discord-Bot) [![Codefactor](https://www.codefactor.io/Content/badges/APlus.svg)](https://www.codefactor.io/repository/github/antoinemcx/structure-discord-bot)
+<h1 align="center">Structure-Discord-Bot</h1>
+<p align="center">
+    Discord.js command, slash command &amp; event handler by <a href="https://github.com/antoinemcx">Melio</a>.<br />
+    If you like the project, feel free to put a ⭐ for better referencing ; If you need help, join the <a href="https://discord.gg/G6WQsMQShZ">server support</a>.
+</p>
 
-Command, slash command &amp; event handler by [Melio](https://github.com/antoinemcx) - Bot Discord (v14.X.X)  
-Moreover, the command and slash commands handlers contain a permissions checker and a cooldown checker ;  
-For better referencing, please add a star on the repository  
+<p align="center">
+    <a title="MIT Lisence" href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
+    <a title="CodeFactor" href="https://www.codefactor.io/repository/github/antoinemcx/structure-discord-bot">
+        <img src="https://www.codefactor.io/repository/github/antoinemcx/structure-discord-bot/badge" alt="CodeFactor">
+    </a>
+    <a title="Stars" href="https://github.com/antoinemcx/Structure-Discord-Bot">
+        <img src="https://img.shields.io/github/stars/antoinemcx/Structure-Discord-Bot" alt="Stars">
+    </a>
+    <a title="Support server" href="https://discord.gg/G6WQsMQShZ">
+        <img src="https://img.shields.io/discord/738122381062832180.svg?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2&label=Support" alt="Support server">
+    </a>
+
+   <br>
+</p>
+
+## Features
+* 🚀 Ready to code Discord bot
+* 🔨 Files and commands structure
+* 📂 Classic and slash commands handler
+* 🕐 The commands handlers contain permissions and cooldown checker
+* 📋 A slash commands registration file
+* 🎈 Event handler including error handler
+
+<br>
 
 
-## Setup the project
+## Starting the project
 
+
+### Configuration
 The configuration file named **config.js** have to content yout bot's token and prefix, and the IDs of all other owners (or just yours).
 ```js
 module.exports = {
@@ -18,30 +45,23 @@ module.exports = {
  ```
 
 ### Installation
-
 ```sh
 $ npm install
 ```
 
 ### Register slash commands
-
 ```sh
 $ npm run slash
 ```
 
 ### Start the bot
-
 ```sh
 $ npm run start
 ```
-‎ 
+
+<br>
 
 ## More
 
-For any errors found, please contact me [here](https://discord.com/invite/G6WQsMQShZ) for exemple or do a pull request. 
-
-### License
-This repository is licensed under the MIT License. See the `LICENSE` file ([here](https://github.com/antoinemcx/Structure-Discord-Bot/blob/master/LICENSE)) for more information.
-
-  
-###### Made with ❤️ by [meliooff](https://github.com/antoinemcx) in JavaScript.
+For any errors found, please contact me [here](https://discord.com/invite/G6WQsMQShZ) or do a pull request.  
+This repository is licensed under the MIT License. See the `LICENSE` file ([here](LICENSE)) for more information.
