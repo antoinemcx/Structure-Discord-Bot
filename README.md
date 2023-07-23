@@ -9,6 +9,9 @@
     <a title="CodeFactor" href="https://www.codefactor.io/repository/github/antoinemcx/structure-discord-bot">
         <img src="https://www.codefactor.io/repository/github/antoinemcx/structure-discord-bot/badge" alt="CodeFactor">
     </a>
+    <a title="Version discord.js" href="https://www.npmjs.com/package/discord.js">
+        <img src="https://img.shields.io/badge/discord.js-v14.7.1-blue.svg?logo=npm" alt="Version discord.js">
+    </a>
     <a title="Stars" href="https://github.com/antoinemcx/Structure-Discord-Bot">
         <img src="https://img.shields.io/github/stars/antoinemcx/Structure-Discord-Bot" alt="Stars">
     </a>
