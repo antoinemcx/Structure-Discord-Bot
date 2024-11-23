@@ -1,13 +1,18 @@
 const fs = require('fs');
 
 module.exports = async (client) => {
-    fs.readdir(`${__dirname}/../../command/`, (err, files) => {
+    const commandDirectory = `${__dirname}/../../command`;
+
+    // Command category loading
+    fs.readdir(commandDirectory + '/', (err, files) => {
         if (err) client.logger.error(err);
+
+        // Command loading
         files.forEach(dir => {
-            fs.readdir(`${__dirname}/../../command/${dir}/`, (err, file) => {
+            fs.readdir(`${commandDirectory}/${dir}/`, (err, file) => {
                 if (err) client.logger.error(err);
                 file.forEach(f => {
-                    const props = require(`${__dirname}/../../command/${dir}/${f}`);
+                    const props = require(`${commandDirectory}/${dir}/${f}`);
                     client.commandes.set(props.name, props);
                     props.aliases.forEach(alias => {
                         client.aliases.set(alias, props.name);

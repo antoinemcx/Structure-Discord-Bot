@@ -1,37 +1,40 @@
-const {ChalkError} = require('./CustomError');
+const { ChalkError } = require('./CustomError');
 const chalk = require('chalk');
-let chalkcolor ={
-     red(message){
-        if(!message) throw new ChalkError('Not text found !');
+
+const noTextFound = "Not text found !";
+
+let chalkcolor = {
+     red(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.red(message)
     },
-    black(message){
-        if(!message) throw new ChalkError('Not text found !');
+    black(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.black(message)
     },
-    green(message){
-        if(!message) throw new ChalkError('Not text found !');
+    green(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.green(message)
     },
-    yellow(message){
-         if(!message) throw new ChalkError('Not text found !');
+    yellow(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.yellow(message)
     },
-    magenta(message){
-         if(!message) throw new ChalkError('Not text found !');
+    magenta(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.magenta(message)
     },
-    blue(message){
-         if(!message) throw new ChalkError('Not text found !');
+    blue(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.blue(message)
     },
-    cyanBright(message){
-        if(!message) throw new ChalkError('Not text found !');
+    cyanBright(message) {
+        if (!message) throw new ChalkError(noTextFound);
         return chalk.cyanBright(message)
-    },
+    }
 };
 
-let messagecolor={
+let messagecolor = {
     red : 0xF52E2E,
     yellow: 0xF5F52E,
     orange: 0xF5AD2E,
@@ -48,8 +51,7 @@ let messagecolor={
     greyple:0x99AAB5
 };
 
-
-module.exports= {
+module.exports = {
     chalkcolor,
     messagecolor
 };
